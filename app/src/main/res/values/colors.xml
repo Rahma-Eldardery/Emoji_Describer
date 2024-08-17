@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00ff0000</color>
+    //Background Colors
+    <color name="LightPeach">#FFF3E0</color>
+    <color name="LightTeal">#E0F7FA</color>
+    <color name="LightCyan">#E0F7FA</color>
+    <color name="LightPurple">#E1BEE7</color>
+    <color name="LightSkyBlue">#B3E5FC</color>
+    <color name="LightPink">#FFEBEE</color>
+    <color name="LightOrange">#FFE0B2</color>
+    <color name="LightYellow">#FFF8E1</color>
+   //Text Colors
+    <color name="Teal">#00796B</color>
+    <color name="DarkGray">#37474F</color>
+    <color name="DarkOrange">#BF360C</color>
+    <color name="Brown">#6D4C41</color>
+    <color name="BurntOrange">#E64A19</color>
+    <color name="Red">#C62828</color>
+    <color name="DarkBlue">#01579B</color>
+    <color name="DeepPurple">#6A1B9A</color>
+    //Button Colors
+    <color name="DarkRed1">#D32F2F</color>
+    <color name="VividRed">#FF5252</color>
+    <color name="DarkRed2">#B71C1C</color>
+    <color name="Rust">#D84315</color>
+    <color name="DeepBrown">#5D4037</color>
+    <color name="Crimson">#D32F2F</color>
+
+</resources>

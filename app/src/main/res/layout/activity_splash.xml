@@ -1,0 +1,18 @@
+<!-- res/layout/activity_splash.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/emoji">
+
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/LightYellow"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="40sp" />
+</LinearLayout>

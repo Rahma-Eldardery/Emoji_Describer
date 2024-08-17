@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Emoji Describer</string>
+    <string name="Cold_Emoji_Description">Cold Face emoji shows a blue face with icicles, representing extreme cold\n</string>
+    <string name="Cold_Emoji_Usage">- express feeling very cold.\n- describe someone who is emotionally distant.\n</string>
+    <string name="Crying_Emoji_Description">Loudly Crying Face emoji depicts a face with streams of tears and a frown, showing intense sadness or crying.\n</string>
+    <string name="Crying_Emoji_Usage">- To express extreme sadness.\n- To express deep emotional pain\n- To show strong reactions to sad or disappointing news.\n</string>
+    <string name="Face_With_Symbols_Emoji_Description">Face with Symbols on Mouth emoji shows a red face with angry eyes and symbols (often obscenities) covering its mouth. It represents intense anger or frustration, often implying that someone is swearing or using strong language.\n</string>
+    <string name="Face_With_Symbols_Emoji_Usage">- To express extreme anger, frustration, or outrage.\n- It\'s suitable for situations where you feel like cursing or when you\'re reacting strongly to something that has upset you.\n- To convey a high level of emotional intensity and irritation.\n</string>
+    <string name="Fear_Full_Face_Emoji_Description">Fearful Face emoji depicts a face with wide eyes and an open mouth, expressing fear or shock. The eyebrows are raised, and the expression suggests a sense of apprehension or alarm.\n</string>
+    <string name="Fear_Full_Face_Emoji_Usage">- to express feelings of fear.\n- to express anxiety.\n- to express concern.\n</string>
+    <string name="Hot_Face_Emoji_Description">Hot Face emoji depicts a red face with a protruding tongue and beads of sweat, expressing a feeling of extreme heat or exhaustion. It represents being overheated, feeling hot, or sweating from exertion or high temperatures.\n</string>
+    <string name="Hot_Face_Emoji_Usage">- to convey that you are feeling extremely hot or overheated. \n-  used in conversations about hot weather, intense physical activity\n</string>
+    <string name="Hugging_Face_Emoji_Description">Hugging Face emoji shows a smiling face with open hands, as if giving a hug. It represents affection, warmth, and friendliness.\n</string>
+    <string name="Hugging_Face_Emoji_Usage">- to express feelings of love, affection, and comfort. \n- used to show support,or care.\n</string>
+    <string name="Pleading_Face_Emoji_Description">Flushed Face emoji shows a face with wide eyes and blushing cheeks, conveying a sense of embarrassment, surprise, or shyness. The raised eyebrows and small, open mouth add to the expression of shock or discomfort.\n</string>
+    <string name="Pleading_Face_Emoji_Usage">- to express feelings of embarrassment, shyness, or being caught off guard. \n- used in situations where you feel self-conscious, surprised, or awkward.\n</string>
+    <string name="Pouting_Face_Emoji_Description">Pouting Face emoji shows a red face with a deep frown, furrowed eyebrows, and angry eyes. It expresses intense anger, frustration, or annoyance.\n</string>
+    <string name="Pouting_Face_Emoji_Usage">- to convey strong feelings of anger or frustration. \n- used in situations where something has made you very upset or to express rage and displeasure.\n</string>
+    <string name="Rolling_on_the_Floor_Face_Emoji_Description">Rolling on the Floor Laughing emoji depicts a face with tightly closed eyes, a wide open mouth, and tilted to one side, indicating intense laughter. It represents extreme amusement or hilarity, as if someone is laughing so hard they are rolling on the floor.\n</string>
+    <string name="Rolling_on_the_Floor_Face_Emoji_Usage">- to express intense laughter and amusement. \n- used in conversations to indicate something is extremely funny or to show that you are laughing uncontrollably.\n</string>
+    <string name="Screaming_Face_Emoji_Description">Screaming Face emoji shows a face with wide eyes and an open mouth, expressing extreme fear, shock, or horror.\n</string>
+    <string name="Screaming_Face_Emoji_Usage">- to convey intense fear.\n-  Surprise, or panic.\n- Used in response to shocking or alarming news.\n</string>
+    <string name="Shushing_Face_Emoji_Description">Shushing Face emoji depicts a face with a finger pressed to its lips, indicating silence or secrecy. The eyes are often closed or looking sideways, adding to the expression of quietness or a request for silence.\n</string>
+    <string name="Shushing_Face_Emoji_Usage">- to ask someone to be quiet \n- to indicate that something should be kept secret.\n- useful in situations where you want to convey silence or confidentiality.\n</string>
+    <string name="Sleeping_Face_Emoji_Description">Sleeping Face emoji shows a face with closed eyes and a sleep bubble coming from the nose, indicating deep sleep. It represents sleepiness, tiredness, or someone being asleep.\n</string>
+    <string name="Sleeping_Face_Emoji_Usage">- to indicate that you are tired, sleepy, or about to go to sleep. \n- to show that something is boring enough to put you to sleep.\n</string>
+    <string name="Slight_Smile_Face_Emoji_Description">Slightly Smiling Face emoji depicts a yellow face with a modest smile and open eyes. It expresses mild happiness, contentment, or friendliness, often used to convey a sense of calm or satisfaction.\n</string>
+    <string name="Slight_Smile_Face_Emoji_Usage">- to show mild happiness or contentment. \n- to lighten the tone of a message without being overly enthusiastic.\n</string>
+
+</resources>

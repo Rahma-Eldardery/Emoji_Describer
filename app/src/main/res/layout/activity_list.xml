@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightYellow"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFFDE7">
+
+        <GridLayout
+            android:id="@+id/emojies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="5"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:background="#FFFDE7">
+
+            <!-- Cold Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/cold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cold_face_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="coldEmogiClicked"
+                    android:contentDescription="@string/Cold_Emoji_Description"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cold"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Cry Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/cry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/crying_face_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="cryingEmogiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cry"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Scream Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/scream"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/face_screaming_in_fear_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="screamEmogiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scream"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Anger Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/anger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/face_with_symbols_on_mouth_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="faceWithSymbolsEmogiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anger"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Fear Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/fear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fearful_face_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="fearFullEmojiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fear"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Hot Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/hot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hot_face_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="hotFaceEmojiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hot"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Hug Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/hug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hugging_face_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="huggingFaceEmojiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hug"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Plead Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/plead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pleading_face_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="pleedingFaceEmogiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flushed"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Pout Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/pout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pouting_face_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="poutingFaceEmogiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pout"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Roll Laugh Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/rollLough"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rolling_on_the_floor_laughing_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="rollingLaughungEmogiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Roll Laugh"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Shush Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/shush"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shushing_face_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="shushingFaceEmogiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shush"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Sleep Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/sleep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sleeping_face_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="sleepingEmogiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sleep"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Smile Emoji -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/emoji_background">
+
+                <ImageButton
+                    android:id="@+id/smile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slightly_smiling_face_svgrepo_com"
+                    android:background="@color/transparent"
+                    android:onClick="SmileEmogiClicked"
+                    android:padding="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Smile"
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
